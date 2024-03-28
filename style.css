@@ -1,0 +1,183 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+
+}
+.h1{
+    position: absolute;
+    top:10%;
+    left:40%;
+    transform: translate(-50%-50%);
+}
+html,body{
+    background-color: cadetblue;
+    width: 100%;
+    height: 120vh;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    width: 100%;
+    height: 120vh;
+}
+
+h1,h3{
+    font-family:Ebrima;
+}
+#card{
+    background-color: rgb(233, 238, 238);
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2rem;
+   cursor: pointer;
+   position: relative;
+
+}
+video {
+    width: 93%;
+    height: 54vh;
+    border-radius: 12px;
+    transition: all 1s;
+}
+.close {
+    font-size: 30px;
+    position: absolute;
+    top: 6%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+}
+#card img{
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-top: 2rem;
+    padding: 5px;
+    border:4px solid rgba(101, 114, 231, 0.853);
+}
+.btnDiv{
+    margin-top: 12px;
+}
+button{
+    background-color: #dadada; 
+    padding: 10px 15px;
+    margin:5px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+#add{
+    background-color: cadetblue;
+    color: blue;
+}
+button:hover{
+    opacity: .5;
+}
+.add{
+    background-color: #dadada !important;
+    color: red !important;
+}
+.fStatus{
+    color: blue !important ;
+    font-family: Gill Sans Nova Light
+}
+#friendStatus,#LikeStatus{
+    color: red;
+    font-family: Gill Sans Nova Light
+}
+
+/* Intagram Style*/
+#LikeStatus{
+    color: rgb(134, 128, 128);
+  
+}
+.loveIcons i{
+    font-size: 29px; 
+    color: red; 
+}
+/* .block{
+    display: block !important;
+} */
+/* .fa-solid{
+    display: none !important;
+} */
+#card2{
+    background-color: rgb(233, 238, 238);
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2rem;
+
+}
+#card2 img{
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5%;
+    margin-top: 2rem;
+    padding: 5px;
+    border:4px solid rgb(222, 114, 89);
+}
+/* // instagram2--------------------------------------------- */
+#card3{
+    background-color: rgb(233, 238, 238);
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2rem;
+    position: relative;
+    transition: all 2s;
+ /* overflow: hidden; */
+}
+#card3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5%;
+    padding: 5px;
+    border:4px solid rgba(57, 56, 55, 0.468);
+    overflow: hidden;
+    cursor: pointer;
+}
+.loveIcons2 span{
+ color: #dadada;
+ font-size: 150px;
+ position: absolute;
+ left:50%;
+ top:50%;
+ opacity: 0;
+ transform: translate(-50%,-50%) scale(.6);
+ transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+ cursor: pointer;
+ 
+}
+@media (max-width:770px) {
+    .head{
+        flex-direction: column;
+        height: auto;
+        margin-top: 3rem;
+    }
+   .h1{
+    top: 3%;
+    left:22%;
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+    text-shadow: 2px 3px 6px #000000a8;
+
+   }
+}
